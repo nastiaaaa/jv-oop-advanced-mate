@@ -15,7 +15,6 @@ public class Rectangle extends Figure {
         return sideA * sideB;
     }
 
-
     @Override
     public void draw() {
         System.out.println("Figure: rectangle, area: " + calcArea()
